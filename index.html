@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HISTORY</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">THE CPU TODAY</a>
+  
+ 
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+    
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#history" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HISTORY</a>
+  <a href="#today" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">THE CPU TODAY</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+    
+     <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide4.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="slide3.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">   
+    </div>
+  </div>
+
+  <!-- HOME Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="HOME">
+    <h2 class="w3-wide">THE CPU</h2>
+    <p class="w3-opacity"><i>the Central Processing Unit</i></p>
+    <p class="w3-justify">The central processing unit’s development make it one of the most important and influential artifacts in the field of computer science. Its history, evolution, and use highlight its impact on technology and computer science.</p>
+      <p class="w3-justify">The leaps and bounds in progress seen over the last seventy years would not be possible without computers and the CPU gave them an edge to complete tasks much more efficiently. </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="cpu.jpg" class="w3-round w3-margin-bottom" alt="" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="IBM_PPC604e_200.jpg" class="w3-round w3-margin-bottom" alt="" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="intel-core-i7.jpg" class="w3-round" alt="" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The HISTORY Section -->
+  <div class="w3-black" id="HISTORY">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">HISTORY</h2>
+      <p class="w3-opacity w3-center"><i>From "fixed-program" to microprocessors</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">Early Computing <span class="w3-tag w3-white w3-margin-left"> Early machines, called Fixed-Program-Computers, required their hardware to be physically rewired to do different jobs. </span></li>
+        <li class="w3-padding">Stored-Program computers <span class="w3-tag w3-white w3-margin-left">stored instructions in high-powered memory rather than the computer having to be physically rewired. The ability to pre- program and store in memory all the instructions a computer would need to carry out computing tasks is the reason computers have been able to advance so much and so quickly.</span></li>
+        <li class="w3-padding">Microprocessors <span class="w3-tag w3-white w3-margin-left">The small chips that are today’s central processing units are microprocessors. The small-scale CPU was the biggest stepping stone to our modern microprocessors, and even boasted use in the Apollo Guidance Computer used by NASA.</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="EDVAC.jpg" alt="EDVAC" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>EDVAC</b></p>
+            <p class="w3-opacity">one of the first stored-program computers</p>
+           
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="Corei5.jpg" alt="Corei5" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>intel i5 CPU: </b></p>
+            <p class="w3-opacity">an example of a modern microprocessor</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="intelamd.png" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>AMD and intel</b></p>
+            <p class="w3-opacity">the two most popular CPU companies constantly competing by improving their chips speed and performance</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- The CPU Today Section -->
+ <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="THE CPU TODAY">
+    <h2 class="w3-wide">THE CPU TODAY</h2>
+    <p class="w3-opacity"><i>Driving innovation and progress</i></p>
+    <p class="w3-justify">Computers may be the most important driving force of our society. They facilitate growth, innovation and discovery in more ways than most of us can imagine. Without computers there would be no internet. Computers connect us in a way nothing else in history has. Computers are used to crunch numbers to predict economic growth and decline and serve as entertainment mediums in the form of videogame consoles, media streaming services, and social media platforms. Computer are used to run war simulations and to predict crime rates. They facilitate information exchange globally driving progress at an unprecedented accelerated rate. This technological age is what makes living in the twenty-first century so great.</p>
+      <p class="w3-justify">And computers themselves wouldn’t be so great without the central processing unit using its logical instructions to execute any program we could possibly conceive of making. For these reasons I can’t think of a more important artifact than the central processing unit. The CPU is the brain of the computer, and thankfully it is a very smart one. </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="bestbuyrain.jpg" class="w3-round w3-margin-bottom" alt="" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="gaming%20pc.jpg" class="w3-round w3-margin-bottom" alt="" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <img src="quantom.jpg" class="w3-round" alt="" style="width:60%">
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
